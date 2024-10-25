@@ -12,7 +12,7 @@ function clock(){
     let s = today.getSeconds();
 
     let day = h <= 11 ? "AM" : "PM";
-
+    h = h < 12 ? h : h - 12;
     h = h < 10 ? "0" + h : h;
     m = m < 10 ? "0" + m : m;
     s = s < 10 ? "0" + s : s;
