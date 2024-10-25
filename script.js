@@ -21,9 +21,4 @@ function clock(){
     document.querySelector(".min").innerHTML = m;
     document.querySelector(".sec").innerHTML = s + " " +day;
 
-
-
-
-
-
 } let inter = setInterval(clock, 1000)
